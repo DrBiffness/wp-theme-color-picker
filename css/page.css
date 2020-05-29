@@ -1,0 +1,31 @@
+.is-css-wrap {
+    background-color: white;
+    padding: 25px 40px;
+    border: 10px ridge #1f45a3;
+    box-shadow: inset 0px 0px 10px #ffdc64; 
+    max-width: 440px;
+    margin: 50px auto 20px;
+}
+.is-css-color-aligner{
+    width: 50%;
+    float: left;
+}
+.is-css-color-aligner label{
+    display:block;
+    margin-top: 10px;
+}
+input#submit {
+    margin: 50px auto;
+    display: block;
+    position: relative;
+    top: 50px;
+}
+.is-css-title{
+    font-size:26px;
+    font-weight:700;
+    color: #1f45a3;;
+}
+.is-css-notice{
+    font-size:13px;
+    color: #666;
+}
