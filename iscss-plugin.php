@@ -73,22 +73,11 @@ function setOptions()
 {
     $opts = getOptions();
     update_option('cpa_colors', $opts);
-    // foreach ($opts as $opt) {
-    //     register_setting('cpa_section', $opt);
-    //     // global $cachedOpts;
-    //     // array_push($cachedOpts, $opt);
-    //     // $cachedOpts[] = $opt;
-    // }
 }
 
 function unsetOptions()
 {
-    // global $cachedOpts;
     delete_option('cpa_colors');
-    // $option_names = $cachedOpts['cpa_section'];
-    // foreach ($option_names as $option_name) {
-    //     delete_option($option_name);
-    // }
 }
 
 function getOptions()
